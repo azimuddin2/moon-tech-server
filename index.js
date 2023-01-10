@@ -25,6 +25,10 @@ async function run() {
             res.send(product);
         });
 
+        app.post('/products', async (req, res) => {
+            
+        })
+
     }
     finally {
 
